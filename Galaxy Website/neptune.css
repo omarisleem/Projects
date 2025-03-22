@@ -1,0 +1,82 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.main{
+    width: 105%;
+    background: scroll,url(neptune-planet-surrounded-by-stars.png);
+    background-size: cover;
+    background-repeat: repeat;
+    height: 188vh;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ul li{
+    list-style:none;
+    margin-left: 60px;
+    margin-top: 30px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: monospace;
+    font-weight: bold;
+    font-style: oblique;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: gray;
+    text-decoration: underline;
+    font-size: 24px; /* Increases the font size on hover */
+    transition: 0.3s;
+    
+}
+.content{
+   width: 100%;
+   position: absolute;
+   top:8%;
+   text-align: left;
+   color: aliceblue;
+}
+.content center{
+    font-size: 50px;
+    margin-top: 80px;
+    font-style: oblique;
+    font-family: monospace;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    font-family: monospace;
+    font-size: large;
+}
+.content header{
+    margin: 20px auto;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: xx-large;
+    font-family: monospace;
+}
+.content p:hover{
+    font-size: 24px; /* Increases the font size on hover */
+    transition: 0.4s;
+}

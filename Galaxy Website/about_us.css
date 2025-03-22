@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(art-5120x2880-space-galaxy-universe-stars-11476.jpg);
+    background-position:center;
+    background-size: cover;
+    height: 160vh;
+    background-repeat:no-repeat;
+    padding: 0%
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 80px;
+}
+ul li{
+    list-style:none;
+    margin-left: 50px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration:none;
+    color: aliceblue;
+    font-family: monospace;
+    font-weight: bold;
+    font-style: oblique;
+    transition:0.4s ease-in-out
+}
+ul li a:hover{
+    color:gray;
+    text-decoration: underline;
+    font-size: 24px; /* Increases the font size on hover */
+    transition: 0.3s;
+}
+.content{
+    position: absolute;
+    top:10%;
+    padding: 10px;
+    color: aliceblue;
+ }
+ .content h1{
+    font-size: 50px;
+    margin-top: 80px;
+    font-style: oblique;
+    font-family: monospace;
+    text-align: center;
+}
+.content header{
+    margin: 20px auto;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: xx-large;
+    font-family: monospace;
+    text-align: left;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    font-family: monospace;
+    font-size: large;
+    text-align:left;
+}
+.content p:hover{
+    font-size: 24px; /* Increases the font size on hover */
+    transition: 0.4s;
+}

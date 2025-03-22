@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(nebula-3840x2160-space-stars-5k-17811.jpg);
+    background-position:center;
+    background-size: cover;
+    height: 109vh;
+    background-repeat:no-repeat;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 16px;
+}
+ul li{
+    list-style:none;
+    margin-left: 35px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration:none;
+    color: aliceblue;
+    font-family: monospace;
+    font-weight: bold;
+    font-style: oblique;
+    transition:0.4s ease-in-out
+}
+ul li a:hover{
+    color:gray;
+    text-decoration: underline;
+    font-size: 24px; /* Increases the font size on hover */
+    transition: 0.3s;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    transform: translate(15%,-45%);
+    padding: 10px;
+    color: aliceblue;
+
+}
+.content header{
+    font-size: 43px;
+    margin-top: 80px;
+    font-style: oblique;
+    font-weight: bold;
+    text-align: center;
+    font-family: monospace;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    font-size:20px;
+    font-style: oblique;
+    font-family: monospace;
+    text-align: center;
+}
+.content p:hover{
+    font-size: 24px; /* Increases the font size on hover */
+    transition: 0.4s;
+}
