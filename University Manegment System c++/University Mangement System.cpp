@@ -855,7 +855,6 @@ void welcome_screen() {
     cout << "\t\t\t---------------------------------------\n";
     cout << "\t\t\t             Made by:\n";
     cout << "\t\t\t             Omar Salama Salem\n";
-    cout << "\t\t\t             ID: 231000674\n";
     cout << "\t\t\t_______________________________________\n\n\n";
     cout << "Press any key to enter the Universirty system ";
     _getch();
